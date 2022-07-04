@@ -1,0 +1,17 @@
+{
+  "name": "sky-test",
+  "version": "1.0.0",
+  "description": "Manual 2 Automation - Automation Basics",
+  "main": "index.js",
+  "scripts": {
+    "first-test": "npx playwright test tests/test-pom.spec.js",
+    "second-test": "npx playwright test tests/another-test-pom.spec.js",
+    "all": "npx playwright test",
+    "headed-all": "npx playwright test --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.22.0"
+  }
+}
